@@ -32,7 +32,6 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(red, green, blue, alpha); /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
