@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}/* Class selectors */
+}
+
+/* Class Selectors */
 
 .box {
   margin: 1rem;
@@ -56,6 +58,7 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    position: relative;
 }
 
 main img {
@@ -72,6 +75,10 @@ footer {
     text-align: center;
 }
 
+
+aside h2 {
+    position: absolute;
+}
 
 
 /* woah daebak */
