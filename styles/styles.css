@@ -4,21 +4,12 @@
   box-sizing: border-box;
 }
 
-/* Class Selectors */
-
-.box {
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0 / .1);
-  padding: 1rem;
-  background-color: #ddd;
-  color: #000;
-}
-
 
 nav {
     background-color: darkblue;
     padding: 10px;
 }
+
 
 nav a {
     color: white;
@@ -26,9 +17,11 @@ nav a {
     padding: 20px;
 }
 
+
 h1 {
     color: darkblue;
 }
+
 
 img {
     width: 150px;
@@ -38,28 +31,16 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
+
 p {
     padding: 10px;
 }
+
 
 main {
     max-width: 840px;
   }
 
-aside {
-    width: 20rem;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-    position: relative;
-}
 
 main img {
     width: 150px;
@@ -67,13 +48,21 @@ main img {
     float: right;
 }
 
-p { padding: 0;}
 
-footer {
-    margin: 15px;
-    border-top: 1px solid #000;
+aside {
+    width: 20rem;
     text-align: center;
+    position: relative;
 }
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+p { padding: 0;}
 
 
 aside h2 {
@@ -81,4 +70,19 @@ aside h2 {
 }
 
 
-/* woah daebak */
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
