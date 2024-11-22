@@ -1,3 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/* Class selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / .1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -46,6 +61,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 
 p { padding: 0;}
@@ -55,3 +71,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+
+
+/* woah daebak */
