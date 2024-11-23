@@ -1,0 +1,173 @@
+
+
+.topnav {
+    background-color: #C6C6C6;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.botnav a{
+    color: black;
+    overflow: hidden;
+}
+
+a {
+  position: relative;
+  font-family: "parkinsans", sans-serif;
+  font-weight: 500;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+main {
+    max-width: auto;
+    background-color: #ffffff;
+}
+
+
+#content-focus-rectangle {
+  border: 2px solid var(--google-grey-500);
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+head {
+  font-family: "barlow", sans-serif;
+  font-weight: 400;
+
+}
+
+body {
+  font-family: "barlow", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "montserrat", sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+
+p {
+  font-size: small;
+}
+
+body {
+  margin: 15px;
+}
+
+.palette.
+.palette * {
+  box-sizing:border-box
+}
+
+.palette {
+  font-family: sans-serif;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.palette__color {
+  height: 150px;
+  width: 200px;
+  background: #f2f2f2;
+  position: relative;
+
+}
+
+.palette__desc {
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  color: #000000;
+}
+
+.palette__input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ffffff;
+  border-top: none;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.palette__input2 {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ffffff;
+  border-top: none;
+  position: relative; 
+}
+
+.palette__color2 {
+  height: 150px;
+  width: 200px;
+  background: #c6c6c6;
+  position: relative;
+}
+
+.palette__color3 {
+  height: 150px;
+  width: 200px;
+  background: #8a8a8a;
+  position: relative;
+}
+
+.palette__color4 {
+  height: 150px;
+  width: 200px;
+  background: #585858;
+  position: relative;
+}
+
+.palette__desc2 {
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  color: #ffffff;
+}
+
+.font__heading-font {
+  font-family: "barlow", sans-serif;
+  font-weight: 500;
+}
+
+.font__text-font {
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;}
