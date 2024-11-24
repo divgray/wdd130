@@ -1,3 +1,41 @@
+:root {
+    background-color: #f8f8f8;
+    padding: 30px;
+  }
+
+
+h1 {
+    font-family: "barlow", sans-serif;
+    font-weight: 400;
+    color: #585858;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+  h2 {
+    font-family: "barlow", sans-serif;
+    font-weight: 400;
+    color: #585858;
+    text-decoration: none;
+   
+}
+
 .hero {
-    
+    position: relative;
+}
+
+.divbackground {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+
+}
+
+.inner-image {
+    float: right;
 }
