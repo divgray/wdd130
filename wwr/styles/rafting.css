@@ -1,41 +1,52 @@
 :root {
-    background-color: #f8f8f8;
-    padding: 30px;
-  }
+  --heading-background-color: #f2f2f2;
+  --heading-text-color-color: #585858;
+  --heading-font: 'Barlow', sans-serif;
+  --padding: 1rem;
+  --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+
+html {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #eee; /* Fills the page */
+}
 
 
 h1 {
-    font-family: "barlow", sans-serif;
-    font-weight: 400;
-    color: #585858;
-    text-decoration: none;
-    position: absolute;
+  background-color:  var(--heading-background-color);
+  color: var(--heading-text-color-color);
+  font-family: var(--heading-font);
+  padding: var(--padding);
+  text-align: center;
+  position: absolute;
 }
 
 
-  h2 {
-    font-family: "barlow", sans-serif;
-    font-weight: 400;
-    color: #585858;
-    text-decoration: none;
-   
+h2 {
+  background-color:  var(--heading-background-color);
+  color: var(--heading-text-color-color);
+  font-family: var(--heading-font);
+  padding: var(--padding);
+  text-align: center;
+}
+
+
+footer {
+  text-decoration: none;
 }
 
 .hero {
-    position: relative;
+  position: relative;
 }
 
-.divbackground {
-    display: block;
-    width: 100%;
-    height: auto;
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-article {
-    position: absolute;
-
-}
-
-.inner-image {
-    float: right;
+article img {
+  float: right;
 }
