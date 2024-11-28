@@ -1,7 +1,6 @@
 :root {
   --heading-background-color: #f2f2f2;
   --heading-text-color-color: #585858;
-  --heading-font: 'barlow', sans-serif;
   --padding: 1rem;
   --border: 1px solid rgb(0 0 0 / 0.1);
 }
@@ -17,7 +16,7 @@ html {
 h1 {
   background-color:  var(--heading-background-color);
   color: var(--heading-text-color-color);
-  font-family: var(--heading-font);
+  font-family: 'barlow', sans-serif;
   padding: var(--padding);
   text-align: center;
   position: absolute;
@@ -27,7 +26,7 @@ h1 {
 h2 {
   background-color:  var(--heading-background-color);
   color: var(--heading-text-color-color);
-  font-family: var(--heading-font);
+  font-family: 'barlow', sans-serif;;
   padding: var(--padding);
   text-align: center;
 }
