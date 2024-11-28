@@ -1,7 +1,7 @@
 :root {
   --heading-background-color: #f2f2f2;
   --heading-text-color-color: #585858;
-  --heading-font: 'Barlow', sans-serif;
+  --heading-font: 'barlow', sans-serif;
   --padding: 1rem;
   --border: 1px solid rgb(0 0 0 / 0.1);
 }
