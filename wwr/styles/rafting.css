@@ -67,7 +67,7 @@ footer {
   border: var(--border);
 }
 
-footer p, a {
+footer p {
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -75,14 +75,14 @@ footer p, a {
   text-align: center;
 }
 
-/* footer a {
+footer a {
+  display: flex;
+  justify-content: center;
+  font-family: "montserrat", sans-serif;
   text-decoration: none;
   color: #585858;
-  width: 50%;
-  padding: 10px;
-  text-align: center;
-
-} */
+  align-content: center;
+}
 
 .social-icons {
   display: flex;
