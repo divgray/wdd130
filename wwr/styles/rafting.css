@@ -2,7 +2,7 @@
   --heading-background-color: #f2f2f2;
   --heading-text-color-color: #585858;
   --padding: 1rem;
-  --border: 1px solid rgb(0 0 0 / 0.1);
+  --border: 1px solid #585858;
 }
 
 
@@ -15,14 +15,15 @@ html {
 header {
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 120px 1fr 2fr;
-  align-items: center;
-  /* border: 1px solid #585858; */
+  grid-template-columns: 600px 1fr 2fr;
+  border: var(--border)
 }
 
 header img {
-  width: 120px;
+  width: 150px;
   height: auto;
+  position: relative;
+  left: 20%;
 }
 
 
@@ -33,11 +34,11 @@ h1 {
   padding: var(--padding);
   text-align: center;
   position: absolute;
-  font-size: 2rem;
+  font-size: 4rem;
   width: 100%;
   height: auto;
   top: 60px;
-  opacity: .8;
+  opacity: .7;
 }
 
 
@@ -46,12 +47,46 @@ h2 {
   color: var(--heading-text-color-color);
   font-family: 'barlow', sans-serif;
   padding: var(--padding);
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.header2 {
+  border: var(--border)
+}
+
+.header2 p {
   text-align: center;
 }
 
-footer a {
+.header3 {
+  height: 20rem;
+  border: var(--border)
+}
+
+footer {
+  border: var(--border);
+}
+
+footer p, a {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  color: #585858;
+  text-align: center;
+}
+
+/* footer a {
   text-decoration: none;
   color: #585858;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+
+} */
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero {
@@ -92,6 +127,7 @@ nav {
 	padding: 0.65rem;
 	opacity: 0.8;
 }
+
 .motto img {
   width: 400px;
   height: auto;
@@ -99,40 +135,142 @@ nav {
 
 p {
   align-self: center;
-  font-family: 'montserrat', sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: 500;
 }
 
-.images {
+figure {
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
   justify-content: space-around;
   height: 120px;
   width: auto;
 }
 
+figcaption {
+  top: 120px;
 
-/* .pic1 {
-  height: 100px;
+}
+
+/* figcaption {
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #868686;
+  color: #f6f6f6;
+  font-family: "montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 120px;
+} */
+
+  /* text-align: center;
+  position: relative;
+  top: 120px;
+  width: 150px;
+  right: 125px;
+  padding: 10px; */
+
+/* .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+} */
+
+
+.pic1 {
+  height: 150px;
   width: auto;
 }
 
 .pic2 {
-  height: 100px;
+  height: 150px;
   width: auto;
 }
 
 .pic3 {
-  height: 100px;
+  height: 150px;
   width: auto;
 }
 
 .pic4 {
-  height: 100px;
+  height: 150px;
   width: auto;
 }
 
 .pic5 {
-  height: 100px;
+  height: 150px;
+  width: auto;
+}
+
+.icon1 {
+  width: 100px;
+  height: auto;
+  border: 2px solid #585858;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon2 {
+  width: 100px;
+  height: auto;
+  border: 2px solid #585858;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon3 {
+  width: 100px;
+  height: auto;
+  border: 2px solid #585858;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon4 {
+  width: 100px;
+  height: auto;
+  border: 2px solid #585858;
+  padding: 10px;
+  text-align: center;
+}
+
+/* figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 0;
+  max-width: 220px;
+  margin: auto;
+
+  width: auto;
+  text-align: center;
+  float: right;
+  margin-right: -65px;
+  clear: right;
+}
+
+
+figcaption {
+  background-color: #c6c6c6;
+  color: #080808;
+  font-family: "montserrat", sans-serif;
+  padding: 1px;
+  align-self: center;
+  border-top: 1px;
+  border-bottom: 1px;
+  position: relative;
+  top: 80px;
+  right: 120px;
+  padding: 1px 1px;
+  max-width: ;
+
+}
+
+figure img {  
+  height: 120px;
   width: auto;
 } */
