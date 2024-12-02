@@ -146,6 +146,10 @@ p {
   font-weight: 500;
 }
 
+.h3-images {
+  display: flex;
+  flex-flow: row;
+}
 
 figure {
   border: thin #c0c0c0 solid;
