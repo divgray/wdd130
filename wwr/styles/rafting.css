@@ -1,8 +1,11 @@
 :root {
-  --heading-background-color: #f2f2f2;
-  --heading-text-color-color: #585858;
+  --heading-background-color: #0038a8;
+  --heading-text-color-color: #ffffff;
   --padding: 1rem;
-  --border: 1px solid #585858;
+  --border: 1.5px solid #120a8f;
+}
+main {
+  border-spacing: 1rem;
 }
 
 
@@ -31,7 +34,9 @@ h1 {
   background-color:  var(--heading-background-color);
   color: var(--heading-text-color-color);
   font-family: 'Barlow', sans-serif;
-  padding: var(--padding);
+  /* padding: var(--padding); */
+  padding-bottom: 30px;
+  padding-top: 20px;
   text-align: center;
   position: absolute;
   font-size: 4rem;
@@ -54,8 +59,19 @@ h2 {
   border: var(--border)
 }
 
+.header2 img {
+  position: relative;
+  left: 40%;
+  padding-bottom: 10px;
+}
+
 .header2 p {
   text-align: center;
+  font-size: large;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .header3 {
@@ -68,25 +84,25 @@ footer {
 }
 
 footer p {
-  margin: auto;
+  font-family: 'Parkinsans', sans-serif;
   width: 50%;
   padding: 10px;
-  color: #585858;
-  text-align: center;
+  color: #000000;
+  font-size: medium;
 }
 
 footer a {
-  display: flex;
-  justify-content: center;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  color: #585858;
-  align-content: center;
+  color: #000000;
+  font-size: small;
 }
 
-.social-icons {
+.social-icons{
   display: flex;
   justify-content: flex-end;
+  position: relative;
+
 }
 
 .hero {
@@ -121,16 +137,17 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: #f2f2f2;
-  text-decoration: none;
+  text-size-adjust: 20px;
 }
 
 .motto {
   position: absolute;
   display: flex;
-  top: 300px;
+  top: 350px;
 	right: 150px;
-	background: radial-gradient(#eee, #f2f2f2);
-	border: 1px solid #000;
+	/* background: radial-gradient(#eee, #f2f2f2); */
+  background: #446ccf;
+	border: 1px solid #120a8f;
 	padding: 0.65rem;
 	opacity: 0.8;
 }
@@ -140,10 +157,12 @@ nav {
   height: auto;
 }
 
-p {
+.motto p {
   align-self: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: 500;
+  color: #ffffff;
+  padding: 5%;
 }
 
 .h3-images {
@@ -152,7 +171,7 @@ p {
 }
 
 figure {
-  border: thin #c0c0c0 solid;
+  border: thin #446ccf solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
@@ -166,7 +185,7 @@ img {
 }
 
 figcaption {
-  background-color: #868686;
+  background-color: #446ccf;
   color: #fff;
   font: italic smaller sans-serif;
   padding: 3px;
@@ -201,31 +220,35 @@ figcaption {
 .icon1 {
   width: 100px;
   height: auto;
-  border: 2px solid #585858;
+  border: 2px solid #120a8f;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 .icon2 {
   width: 100px;
   height: auto;
-  border: 2px solid #585858;
+  border: 2px solid #120a8f;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 .icon3 {
   width: 100px;
   height: auto;
-  border: 2px solid #585858;
+  border: 2px solid #120a8f;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 .icon4 {
   width: 100px;
   height: auto;
-  border: 2px solid #585858;
+  border: 2px solid #120a8f;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
 }
