@@ -148,7 +148,7 @@ p {
   width: 660px;
   height: 280px;
   right: 1px;
-  top: 1365px;
+  top: 1265px;
 }
 
 .details p {
@@ -219,6 +219,8 @@ nav {
 .employee {
   border: thin #446ccf solid;
   padding: var(--padding);
+  display: flex;
+  flex-flow: row;
 }
 
 figure {
