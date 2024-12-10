@@ -7,15 +7,6 @@
 /* main {
   border-spacing: 1rem;
 } */
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
-
-.parkinsans-<uniquifier> {
-  font-family: "Parkinsans", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 html {
   max-width: 1200px;
@@ -156,8 +147,8 @@ p {
   background-color: #ffffff;
   width: 660px;
   height: 280px;
-  right: 1px;
-  top: 1265px;
+  right: 10px;
+  top: 1300px;
 }
 
 .details p {
@@ -295,7 +286,7 @@ form {
   text-decoration: none;
 }
 
-/* @font-face {
+@font-face {
   font-family : 'Barlow';
   font-style : normal;
   font-weight : 400;
@@ -490,4 +481,4 @@ form {
   font-weight : 800;
   font-display : swap;
   src : url(https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gRW7h8K.ttf) format('truetype');
-  } */
+  }
