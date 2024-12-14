@@ -385,8 +385,8 @@ p {
   background-color: #ffffff;
   width: 660px;
   height: 300px;
-  right: 20px;
-  top: 1360px;
+  right: 40px;
+  top: 1400px;
   padding: 5px;
 }
 
@@ -489,29 +489,3 @@ form {
 /* Contacts Main Ends */
 
 
-
-
-/* Fonts */
-@font-face {
-  font-family : 'barlow';
-  font-style : normal;
-  font-weight : 600;
-  font-display : swap;
-  src : url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E30-8c4A.ttf) format('truetype');
-  }
-
-@font-face {
-  font-family : 'montserrat';
-  font-style : italic;
-  font-weight : 600;
-  font-display : swap;
-  src : url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aX8.ttf) format('truetype');
-  }
-
-@font-face {
-  font-family : 'parkinsans';
-  font-style : normal;
-  font-weight : 700;
-  font-display : swap;
-  src : url(https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gQx7h8K.ttf) format('truetype');
-  }
