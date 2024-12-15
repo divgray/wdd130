@@ -485,4 +485,86 @@ form {
 }
 /* Contacts Main Ends */
 
+/*Trips Main starts */
+.trips2ndheader {
+  position: absolute;
+  background-origin: var();
+  padding: 100px;
+  top: 350px;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+}
 
+.trips2ndheader p {
+  color: #000000;
+  background-color: azure;
+  padding: 50px;
+  border: 2px solid #120a8f;
+  border-radius: 25px;
+  opacity: .8;
+}
+
+.joinbutton {
+  background-color: azure;
+  color: #000000;
+  padding: 10px;
+  border: var(--border);
+  text-align: center;
+  width: 20%;
+  border-radius: 20px;
+  margin-left: 460px;
+  }
+
+.joinbutton a {
+  text-decoration: none;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 800;
+  font-size: x-large;
+  }
+
+.trip-details {
+  display: flex;
+
+}
+.trip-details img{
+  height: 180px;
+  width: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.trip-details p{
+  font-family: 'montserrat', sans-serif;
+  text-align: center;
+}
+
+table {
+  position: relative;
+  left: 180px;
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+caption {
+  font-family: 'barlow', sans-serif;
+  font-weight: 600;
+  font-size: large;
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 10px 100px;
+  font-family: 'montserrat', sans-serif;
+}
+
+th {
+  font-size: medium;
+}
+/* Ttrips main end */
