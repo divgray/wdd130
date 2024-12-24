@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+html {
+    background-color: #e6e6fa;
+}
 
 nav {
     padding: 10px;
@@ -20,15 +23,15 @@ nav a {
 
 
 h1 {
-    color: #f770e5;
-    border-bottom: 1px solid #f770e5;
+    color: #8170cc;
+    border-bottom: 1px solid #9c8fe5;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: x-large;
 
 }
 
 h2 {
-    color: #f770e5;
+    color: #8170cc;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: large;
 }
@@ -36,14 +39,9 @@ h2 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid #f770e5;
+    border: 1px solid #9c8fe5;
     padding: 2px;
-    box-shadow: 0 0 30px #fcd1f5;
-}
-
-
-p {
-    padding: 10px;
+    /* box-shadow: 0 0 30px #fcd1f5; */
 }
 
 main img {
@@ -67,14 +65,15 @@ aside img {
 
 
 p {
-    padding: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    padding: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
 }
 
 
 footer {
     margin-top: 1em;
-    border-top: 1px solid #FF8ECC;
+    border-top: 1px solid #9c8fe5;
     text-align: center;
 }
 
@@ -85,13 +84,14 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: #ffedfc;
+    background-color: #cbc7f8;
     color: #000;
 }
 
 .box a {
     text-decoration: none;
     color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 header, footer {
@@ -100,7 +100,7 @@ header, footer {
 }
 
 nav {
-  background-color: #FF8ECC;
+  background-color: #8170cc;
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
@@ -136,4 +136,39 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+}
+
+.temple {
+    padding: var(--padding);
+    display: flex;
+    flex-flow: row;
+  
+  }
+  
+  figure {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    /* border: 2px solid #9c8fe5; */
+  }
+  
+  .temple img {
+    width: auto;
+    height: 92px;
+    border-radius: 50%;
+  }
+  
+  figcaption {
+    font: smaller sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+video {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
 }
