@@ -6,7 +6,6 @@
 
 
 nav {
-    background-color: darkblue;
     padding: 10px;
 }
 
@@ -15,32 +14,37 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 h1 {
-    color: darkblue;
+    color: #f770e5;
+    border-bottom: 1px solid #f770e5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+
 }
 
+h2 {
+    color: #f770e5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid #f770e5;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px #fcd1f5;
 }
 
 
 p {
     padding: 10px;
 }
-
-
-main {
-    max-width: 840px;
-  }
-
 
 main img {
     width: 150px;
@@ -62,12 +66,15 @@ aside img {
 
 
 
-p { padding: 0;}
+p {
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 
 footer {
     margin-top: 1em;
-    border-top: 1px solid #000;
+    border-top: 1px solid #FF8ECC;
     text-align: center;
 }
 
@@ -78,11 +85,55 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: #eee;
+    background-color: #ffedfc;
     color: #000;
 }
 
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+header, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
 nav {
-    display: flex;
-    justify-content: space-around;
+  background-color: #FF8ECC;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
