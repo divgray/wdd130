@@ -1,0 +1,17 @@
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+table {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .calendar {
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 5;
+
+} */

@@ -1,0 +1,266 @@
+:root,
+body {
+    --headerfont: "Montserrat", sans-serif;
+    --highlighter-font: "Parkinsans", sans-serif;
+    --text-font: "Barlow", sans-serif;
+    --primary-color: #0038a8;
+    --secondary-color: darkblue;
+    overflow-x: hidden;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+main {
+    min-height: 1800px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    opacity: 0;
+}
+
+.hero button,
+.container input[type="submit"],
+article a {
+    font-family: var(--headerfont);
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 50px;
+    background-color: lightblue;
+    color: black;
+    box-shadow: hsl(240, 100%, 27%, .8) 2px 2px;
+}
+
+.opening-remark {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    padding: 0 1rem;
+    background: rgb(225, 225, 225, 0.5);
+    border-radius: 5px;
+    width: 80%;
+    height: 60%;
+    line-height: 1rem;
+    text-align: center;
+    align-content: center;
+}
+
+/* 
+h1 {
+    font-family: var(--headerfont);
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: lightblue 2px 1px;
+} */
+
+.opening-remark p {
+    font-family: var(--headerfont);
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: darkblue 2px 1px;
+}
+
+.container {
+    border: 2px solid brown;
+    border-radius: 5px;
+    align-items: center;
+    font-family: 'montserrat', sans-serif;
+    margin: 3rem 1rem;
+    padding: .5rem;
+}
+
+.container p,
+.container label {
+    font-size: .8rem;
+}
+
+
+h2 {
+    color: #120a8f;
+    font-family: var(--highlighter-font);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+input[type="text"] {
+    margin: .2rem;
+}
+
+form {
+    border: var(--border);
+    padding: var(--padding);
+    background-color: azure;
+}
+
+.album-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 5rem 1rem;
+    border: 2px double lightblue;
+}
+
+.album-gallery img {
+    width: 200px;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.album-gallery figcaption {
+    font-family: var(--text-font);
+    font-size: .8rem;
+    width: 100%;
+    text-align: center;
+    border: 2px solid lightblue;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+main article {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h3 {
+    font-family: var(--headerfont);
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+article p {
+    font-family: var(--highlighter-font);
+    font-size: .8rem;
+}
+
+article a {
+    text-underline-offset: .2rem;
+}
+
+@media (min-width:600px) {
+    main {
+        min-height: 1400px;
+    }
+
+    .opening-remark {
+        top: 50%;
+        left: 48%;
+    }
+
+    h1 {
+        opacity: 1;
+        font-family: 'parkinsans', sans-serif;
+        color: white;
+        text-shadow: #120a8f 3px 4px;
+        position: absolute;
+        font-size: 2.8rem;
+        width: 100%;
+        text-align: center;
+        top: 20%;
+        z-index: 1000;
+    }
+
+    .opening-remark p {
+        font-size: 1rem;
+    }
+
+    .album-gallery {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .album-gallery img {
+        width: 220px;
+        height: auto;
+    }
+
+    .album-gallery figcaption {
+        border: none;
+        text-align: left;
+    }
+}
+
+@media (min-width:760px) {
+    .album-gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:800px) {
+    .album-gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1024px) {
+    main {
+        min-height: 1200px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .opening-remark p {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .container {
+        background-color: azure;
+        position: absolute;
+        width: 300px;
+        height: 240px;
+        top: 26rem;
+        right: 1rem;
+        border-radius: 20px;
+    }
+
+
+    .album-gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .album-gallery img {
+        width: 180px;
+    }
+}
+
+@media (min-width:1100px) {
+    .album-gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container {
+        top: 30rem;
+        right: 10rem;
+    }
+
+    .album-gallery img {
+        width: 180px;
+    }
+}

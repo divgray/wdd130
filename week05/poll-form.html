@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Divya Ali Priya Giray | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form action="">
+        <fieldset>
+            <legend>Contact Information</legend>
+                <label for="fullname">Fullname:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="email" id="usermail" name="usermail">
+        </fieldset>
+
+        <fieldset>
+            <legend>Questions</legend>
+            <label for="browser">What is your favorite internet browser?</label>
+            <select id="browser" name="browser">
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="safari">Safari</option>
+                <option value="edge">Edge</option>
+                <option value="brave">Brave</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="feedback">List the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+        </fieldset>
+        
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<footer>
+  <p>©2025 | HTML Form - User Poll Activity | Divya Giray</p>
+</footer>
+</body>
+</html>

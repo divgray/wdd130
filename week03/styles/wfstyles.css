@@ -1,7 +1,7 @@
 
 
 .topnav {
-    background-color: #C6C6C6;
+    background-color: #89CFF0;
     overflow: hidden;
 }
 
@@ -94,7 +94,7 @@ body {
 .palette__color {
   height: 150px;
   width: 200px;
-  background: #f2f2f2;
+  background: 	#0096FF;
   position: relative;
 
 }
@@ -134,21 +134,21 @@ body {
 .palette__color2 {
   height: 150px;
   width: 200px;
-  background: #c6c6c6;
+  background: 	#0047AB;
   position: relative;
 }
 
 .palette__color3 {
   height: 150px;
   width: 200px;
-  background: #8a8a8a;
+  background: #F0FFFF;
   position: relative;
 }
 
 .palette__color4 {
   height: 150px;
   width: 200px;
-  background: #585858;
+  background: #89CFF0;
   position: relative;
 }
 
