@@ -79,11 +79,10 @@ nav a {
 }
 
 nav a:hover {
-    border-radius: 0 0 .5em .5em;
     background-color: white;
     color: black;
     font-weight: 400;
-    border-radius: 0 0 .5em .5em;
+    /* border-radius: 0 0 .5em .5em; */
     transform: scale(1.1);
 }
 
