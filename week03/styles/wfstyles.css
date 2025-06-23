@@ -80,7 +80,6 @@ body {
   margin: 15px;
 }
 
-.palette.
 .palette * {
   box-sizing:border-box
 }
@@ -170,4 +169,5 @@ body {
 
 .font__text-font {
   font-family: "montserrat", sans-serif;
-  font-weight: 400;}
+  font-weight: 400;
+}
