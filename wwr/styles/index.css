@@ -63,15 +63,6 @@ article a {
     align-content: center;
 }
 
-/* 
-h1 {
-    font-family: var(--headerfont);
-    font-size: 1rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-shadow: lightblue 2px 1px;
-} */
-
 .opening-remark p {
     font-family: var(--headerfont);
     font-size: .8rem;
@@ -228,12 +219,17 @@ article a {
         padding: 1rem;
     }
 
+    .hero-wrapper {
+        position: relative;
+        /* now this is our context */
+    }
+
     .container {
         background-color: azure;
         position: absolute;
         width: 300px;
         height: 240px;
-        top: 26rem;
+        top: 22rem;
         right: 1rem;
         border-radius: 20px;
     }
@@ -249,18 +245,23 @@ article a {
 }
 
 @media (min-width:1100px) {
+    .container {
+        top: 26rem;
+    }
+
     .album-gallery {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 
-    .container {
-        top: 30rem;
-        right: 10rem;
-    }
-
     .album-gallery img {
         width: 180px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        top: 30rem;
     }
 }
