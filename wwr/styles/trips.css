@@ -1,0 +1,254 @@
+:root,
+body {
+    --headerfont: "Montserrat", sans-serif;
+    --highlighter-font: "Parkinsans", sans-serif;
+    --text-font: "Barlow", sans-serif;
+    --primary-color: #0038a8;
+    --secondary-color: darkblue;
+    overflow-x: hidden;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+main {
+    min-height: 1400px;
+    margin-bottom: 5rem;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: -1rem 0;
+    opacity: 0;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-family: var(--highlighter-font);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.trips2ndheader {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: .5rem;
+    background: hsl(195, 53%, 79%, .75);
+    border-radius: 10px;
+    width: 70%;
+    height: 60%;
+    max-width: 600px;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+}
+
+.trips2ndheader p {
+    color: #000000;
+    font-family: var(--highlighter-font);
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+
+/* viewport: hide overflow */
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+/* track: flex row, animated */
+.track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.track>div {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.track img {
+    width: auto;
+    height: 200px;
+    display: block;
+    margin: 0 auto 0.5rem;
+    border: 5px double lightblue;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 139, .8) 4px 4px;
+}
+
+.track p {
+    font-family: var(--text-font);
+    font-size: 1rem;
+}
+
+/* controls */
+.controls {
+    text-align: center;
+}
+
+.controls button {
+    font-family: var(--highlighter-font);
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: .8rem 1.3rem;
+    margin: 0 .5rem 5rem .5rem;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+
+
+table {
+    margin: auto;
+    padding: 0;
+    position: relative;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    background-color: #fff;
+    text-align: center;
+}
+
+caption {
+    font-family: var(--headerfont);
+    font-size: 1rem;
+    caption-side: bottom;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: .5rem 1rem;
+    font-family: var(--text-font);
+}
+
+th {
+    font-size: .8rem;
+}
+
+/* img {
+    width: 100px;
+} */
+
+.joinbutton {
+    margin: auto;
+    padding: 1rem 0;
+    background-color: white;
+    color: #000000;
+    border: 2px solid darkblue;
+    text-align: center;
+    border-radius: 20px;
+    width: 12rem;
+}
+
+.joinbutton a {
+    text-decoration: none;
+    font-family: var(--headerfont);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media (min-width:600px) {
+    main {
+        margin-bottom: 10rem;
+    }
+
+    h1 {
+        opacity: 1;
+        font-family: 'parkinsans', sans-serif;
+        color: white;
+        text-shadow: #120a8f 3px 4px;
+        position: absolute;
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+        top: 30%;
+        z-index: 1000;
+    }
+
+    .track img {
+        height: 300px;
+    }
+
+    caption {
+        font-size: 1.5rem;
+    }
+
+    th,
+    td {
+        padding: 1rem 2.5rem;
+    }
+
+    th {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:760px) {
+    main {
+        margin-bottom: 10rem;
+    }
+
+    .trips2ndheader p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .track img {
+        height: 360px;
+    }
+
+    .track p {
+        font-size: 1.5rem;
+    }
+
+    .controls button {
+        font-size: 1.2rem;
+        padding: 1rem 1.5rem;
+    }
+
+
+    caption {
+        font-size: 1.5rem;
+    }
+
+    th,
+    td {
+        padding: 1.5rem 4rem;
+    }
+
+    th {
+        font-size: 1.2rem;
+    }
+}

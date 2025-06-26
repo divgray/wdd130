@@ -1,0 +1,73 @@
+/* .trip-details {
+    display: flex;
+    flex-wrap: nowrap;
+
+} */
+
+/* .trip-details img {
+    height: 180px;
+    width: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.trip-details p {
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+} */
+.trip-details {
+    display: flex;
+    overflow-x: auto;
+    /* enable horizontal scroll */
+    scroll-behavior: smooth;
+    /* smooth scrolling when JS calls scrollBy() */
+    scroll-snap-type: x mandatory;
+    /* snap to each child */
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem;
+    /* space between slides */
+    padding: 1rem 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* 2. Each child is treated as a “full-viewport” slide */
+.trip-details>div {
+    flex: 0 0 100%;
+    /* take up 100% of container width */
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    text-align: center;
+    /* center content inside each slide */
+}
+
+.trip-details img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto .5rem;
+}
+
+.trip-details p {
+    font-family: var(--text-font);
+    font-size: 1rem;
+}
+
+/* 3. Buttons */
+.slider-btns {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.slider-btns button {
+    font-family: var(--highlighter-font);
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: .8rem 1.3rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+    background-color: lightblue;
+}
