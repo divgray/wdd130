@@ -100,7 +100,7 @@ footer {
 
 footer p {
     font-family: var(--headerfont);
-    font-size: 1rem;
+    font-size: .9rem;
     color: #000000;
 }
 

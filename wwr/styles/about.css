@@ -1,0 +1,247 @@
+:root,
+body {
+    --headerfont: "Montserrat", sans-serif;
+    --highlighter-font: "Parkinsans", sans-serif;
+    --text-font: "Barlow", sans-serif;
+    --primary-color: #0038a8;
+    --secondary-color: darkblue;
+    overflow-x: hidden;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+main {
+    min-height: 1600px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: -1rem 0;
+    opacity: 0;
+}
+
+.motto {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: .5rem;
+    background: hsl(195, 53%, 79%, .8);
+    border-radius: 10px;
+    width: 80%;
+    height: 60%;
+    max-width: 600px;
+    align-items: center;
+}
+
+.motto img {
+    height: 80px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.motto p {
+    font-family: var(--text-font);
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    color: black;
+}
+
+
+
+/* ABOUT2 (“History”) */
+h2 {
+    color: var(--primary-color);
+    font-family: var(--highlighter-font);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.about2,
+.about3 {
+    margin: 5rem .5rem;
+    padding: .5rem;
+    border: lightblue 2px solid;
+    border-radius: 5px;
+}
+
+.about2 img {
+    margin: .5rem;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about2 p {
+    font-family: var(--highlighter-font);
+    font-size: 0.9rem;
+}
+
+/* ABOUT3 (Image Grid) */
+.about3-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.about3-images figure {
+    max-width: 140px;
+    flex: 1 1 40%;
+    margin: 0.5rem;
+}
+
+.about3-images img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-family: var(--text-font);
+    font-size: .8rem;
+    width: 100%;
+    text-align: center;
+    border: 2px solid lightblue;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+@media (min-width:600px) {
+    main {
+        min-height: 2400px;
+    }
+
+    h1 {
+        opacity: 1;
+        font-family: 'parkinsans', sans-serif;
+        color: white;
+        text-shadow: #120a8f 3px 4px;
+        position: absolute;
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+        top: 25%;
+        z-index: 1000;
+    }
+
+    .motto {
+        width: 60%;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        padding: 2rem;
+        align-items: end;
+    }
+
+    .motto img {
+        height: 120px;
+    }
+
+    .motto p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .about2,
+    .about3 {
+        margin: 10rem 1rem;
+        padding: 1rem;
+        border: lightblue 5px solid;
+        text-align: center;
+    }
+
+    .about2 img {
+        max-width: 400px;
+    }
+
+    .about2 p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+
+    .about3-images figure {
+        max-width: 200px;
+        align-items: center;
+    }
+
+    .about3-images figcaption {
+        color: darkblue;
+        font-size: 1rem;
+        border: none;
+        padding: .25rem;
+    }
+}
+
+@media (min-width:760px) {
+    h1 {
+        font-size: 3rem;
+        top: 30%;
+    }
+
+    .motto {
+        height: 40%;
+        align-items: center;
+    }
+
+    .motto img {
+        height: 120px;
+    }
+
+    .motto p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}
+
+@media (min-width:1020px) {
+    h1 {
+        font-size: 3.5rem;
+        top: 32%;
+    }
+
+    .motto {
+        height: 40%;
+        align-items: end;
+    }
+
+    .motto img {
+        height: 200px;
+    }
+
+    .motto p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+
+    .about2 p {
+        font-size: 1.2rem;
+        padding: 0 2rem;
+    }
+
+    .about3-images figure {
+        max-width: 300px;
+    }
+}
